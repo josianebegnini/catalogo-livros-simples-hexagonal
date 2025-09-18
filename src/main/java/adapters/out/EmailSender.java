@@ -1,6 +1,6 @@
 package adapters.out;
 
-import adapters.application.EmailService;
+import app.EmailService;
 import jakarta.mail.Session;
 import jakarta.mail.Message;
 import jakarta.mail.Transport;

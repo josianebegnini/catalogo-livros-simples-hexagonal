@@ -1,6 +1,5 @@
 package app;
 
-import adapters.application.EmailService;
 import domain.Livro;
 import domain.LivroRepository;
 import java.util.List;
