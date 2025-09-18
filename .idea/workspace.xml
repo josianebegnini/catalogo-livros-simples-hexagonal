@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3db8fa47-c240-4f2d-894b-14da204c8ea7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapters/application/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapters/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapters/application/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/adapters/out/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapters/out/EmailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/LivroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/LivroService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,7 @@
     "Maven.catalogo-livros-simples-hexagonal [clean].executor": "Run",
     "Maven.catalogo-livros-simples-hexagonal [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/jbegnini/IdeaProjects/catalogo-livros-simples-hexagonal/src/main/java/org/example/Main.java"

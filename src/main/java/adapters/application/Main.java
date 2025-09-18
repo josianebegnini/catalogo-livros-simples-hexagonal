@@ -1,6 +1,7 @@
 package adapters.application;
 
 import adapters.in.LivroController;
+import adapters.out.EmailSender;
 import adapters.out.LivroRepositoryH2;
 import app.LivroService;
 
@@ -24,7 +25,8 @@ public class Main {
 
             // Instanciar os componentes da arquitetura hexagonal
             LivroRepositoryH2 repository = new LivroRepositoryH2(connection);
-            LivroService service = new LivroService(repository);
+            EmailSender emailSender = new EmailSender();
+            LivroService service = new LivroService(repository, emailSender);
             LivroController controller = new LivroController(service);
 
             // Iniciar o servidor REST

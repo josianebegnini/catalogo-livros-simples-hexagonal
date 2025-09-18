@@ -19,10 +19,11 @@ public class EmailSender implements EmailService {
     @Override
     public void enviarEmail(String destinatario, String assunto, String corpo) {
         try {
+
             Properties props = new Properties();
             props.put("mail.smtp.auth", "true");
             props.put("mail.smtp.starttls.enable", "true");
-            props.put("mail.smtp.host", "smtp.dominio.com");
+            props.put("mail.smtp.host", "smtp.gmail.com");
             props.put("mail.smtp.port", "587");
 
             Session session = Session.getInstance(props, new Authenticator() {
